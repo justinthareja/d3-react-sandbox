@@ -2,9 +2,16 @@ import React, { Component, PropTypes } from 'react';
 import BarChart from './components/BarChart';
 
 const barChartProps = {
-    data: [1, 2, 3, 4],
-    height: 500,
-    width: 600,
+    data: [
+      {label: 'A', value: 11},
+      {label: 'B', value: 30},
+      {label: 'C', value: 50},
+      {label: 'D', value: 2},
+      {label: 'E', value: 39},
+      {label: 'F', value: 25}
+    ],
+    height: 200,
+    width: 200,
     style: {
       padding: 30
     },

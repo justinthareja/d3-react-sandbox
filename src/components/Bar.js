@@ -15,5 +15,10 @@ class Bar extends Component {
 
 } 
 
+Bar.defaultProps = {
+  color: 'orange'
+}
+
+
 export default Bar
 
